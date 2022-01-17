@@ -1,0 +1,42 @@
+
+.registerLink {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.title {
+  color: #ffc700;
+  margin-bottom: 2rem;
+}
+.topModal {
+  border: none;
+}
+.submit {
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(9, 27, 66);
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem 0rem;
+}
+.input,
+.select
+{
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+.input:active,
+.input:focus,
+.select:active,
+.select:focus
+{
+  box-shadow: none;
+  outline: none;
+  border-color: #ffc700;
+}
+
+.mapModal{
+  min-width: 90vw;
+}
+.bodyMapModal{
+  height: 80vh;
+}

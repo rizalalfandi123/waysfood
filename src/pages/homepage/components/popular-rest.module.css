@@ -1,0 +1,46 @@
+.restaurantCard {
+  height: 20rem;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 4px solid white;
+  transition: all 0.3s;
+}
+.restaurantCard:hover {
+  margin: 1rem 1.2rem;
+}
+.imgBox {
+  padding: 1rem;
+  flex: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgBox img {
+  width: 75%;
+}
+.restaurantDesc {
+  flex: 25%;
+  width: 100%;
+  border-radius: 0 0 0.4rem 0.4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background-color: #ffc700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location i {
+  margin: 0px 2px;
+  font-size: 1.2rem;
+}
+.location {
+  font-size: 1.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+}

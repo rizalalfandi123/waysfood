@@ -1,0 +1,44 @@
+.cancelBtn {
+  background-color: tomato;
+  border-color: tomato;
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 0px 20px;
+}
+.approveBtn {
+  background-color: rgb(131, 255, 119);
+  border-color: rgb(131, 255, 119);
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 0px 20px;
+}
+.waiting {
+  color: #ff9900;
+}
+.success {
+  color: #78a85a;
+}
+.successIcon,
+.cancelIcon ,
+.otwIcon
+{
+  font-size: 2rem;
+}
+.successIcon {
+  color: #78a85a;
+}
+.cancelIcon{
+    color: tomato;
+}
+.otwIcon{
+   color: #00d1ff;
+}
+.cancel {
+  color: tomato;
+}
+.otw {
+  color: #00d1ff;
+}
+tr {
+  line-height: 3rem;
+}

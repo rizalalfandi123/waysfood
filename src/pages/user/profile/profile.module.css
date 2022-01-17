@@ -1,0 +1,100 @@
+.profile {
+  display: flex;
+}
+.detailProfile {
+  flex: 60%;
+}
+.history {
+  flex: 40%;
+}
+.title {
+  margin-bottom: 2rem;
+}
+.desc {
+  display: flex;
+  font-size: 1.5rem;
+}
+.imgBox {
+  display: flex;
+  flex-direction: column;
+}
+.imgBox button {
+  width: 20rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+.imgBox img {
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+.about,
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  justify-content: space-evenly;
+}
+.field {
+  color: #613d2b;
+  font-weight: 500;
+}
+.transCard {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.topCard {
+  display: flex;
+  justify-content: space-between;
+}
+.topCard .desc {
+  display: flex;
+  flex-direction: column;
+}
+.restoName {
+  font-weight: 500;
+}
+.date {
+  font-size: 1.2rem;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  margin-left: 0.5rem;
+}
+.bodyCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.price {
+  font-weight: 600;
+  color: #974a4a;
+}
+.status{
+    background-color: #00FF47;
+    color: white;
+    font-weight: 500;
+    height: 2rem;
+    width: 10rem;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+}
+.editButton{
+  font-size: 1rem;
+}
